@@ -176,6 +176,16 @@ nav {
 
 
 
+@media only screen and (max-width: 320px) {
+	body{
+	width: 320px;
+    height: 2200px;
+    overflow-y: hidden;
+    overflow-x: auto;
+	}
+}
+
+
 @media only screen and (max-width: 640px) {
 	.marsButtons {
 	margin-top: 330px;
@@ -184,8 +194,13 @@ nav {
 	.criticButtons {
     margin-top: 330px;
     }
+    body{
+	width: 500px;
+    height: 2200px;
+    overflow-y: hidden;
+    overflow-x: auto;
+	}
 }
-
 
 
 
