@@ -217,6 +217,10 @@ nav {
 	font-size: 40px;
 }
 
+.columns {
+	margin: 5px;
+}
+
 @media only screen and (max-width: 320px) {
 	.project {
 		width: 90%;
