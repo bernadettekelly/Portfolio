@@ -24,6 +24,12 @@ h1, h2 {
 .portfolio {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	color: 
+}
+
+.about {
+	color: ;
+
 }
 
 .Portfolio_Container {
@@ -156,6 +162,10 @@ body {
 	padding-bottom: 28px;
 }
 
+.Page2 {
+
+}
+
 .about, .portfolio {
 	font-weight: normal;
 }
@@ -221,7 +231,7 @@ nav {
 	margin: 5px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
 	.project {
 		width: 90%;
 		height: 300px;
@@ -231,19 +241,69 @@ nav {
 		margin-bottom: 20px;
 	}
 
+	.marsButtons {
+	margin-top: 205px;
+	}
+
+	.criticButtons {
+    margin-top: 205px;
+    }
+
+    .timesButtons {
+    	margin-top: 205px;
+    }
+
+    .collabButtons {
+    	margin-top: 205px;
+    }
+
 	body {
 		width: 100%;
+		height: 100%;
+	}
+
+	.gallery-wrapper {
+		overflow: inherit;
+		width: 100%;
+	}
+
+	.gallery ul li {
+		display: block;
+	}
+
+	footer {
+		margin-top: 960px;
+	}
+
+	.previous {
+		top: 0%;
+	}
+
+	.next {
+		top: 0%;
+	}
+
+	.Page2 footer {
+		margin-top: 50px;
 	}
 }
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 640px) {
 	.marsButtons {
-	margin-top: 330px;
+	margin-top: 230px;
 	}
 
 	.criticButtons {
-    margin-top: 330px;
+    margin-top: 230px;
+    }
+
+    .timesButtons {
+    	margin-top: 230px;
+    }
+
+    .collabButtons {
+    	margin-top: 230px;
     }
     .project {
 		width: 90%;
@@ -255,6 +315,162 @@ nav {
 	}
 	body {
 		width: 100%;
+		height: 1750px;
+	}
+
+	.gallery-wrapper {
+		overflow: inherit;
+		width: 420px;
+	}
+
+	.gallery ul li {
+		display: block;
+	}
+
+	footer {
+		margin-top: 960px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		height: 100%;
+	}
+
+	.previous {
+		top: 0%;
+	}
+
+	.next {
+		top: 0%;
+	}
+
+	footer {
+		margin-top: 1070px;
+	}
+	.gallery-wrapper {
+		overflow: inherit;
+		width: 650px;
+		margin: 0 auto;
+	}
+
+	.gallery ul li {
+		display: block;
+	}
+
+	.marsButtons {
+	margin-top: 305px;
+	}
+
+	.criticButtons {
+    margin-top: 305px;
+    }
+
+    .timesButtons {
+    	margin-top: 305px;
+    }
+
+    .collabButtons {
+    	margin-top:305px;
+    }
+    .project {
+    	margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		height: 100%;
+	}
+
+	.previous {
+		top: 0%;
+	}
+
+	.next {
+		top: 0%;
+	}
+
+	footer {
+		margin-top: 1070px;
+	}
+
+	.Page2 footer {
+		margin-top: 400px;
+		padding-bottom: 120px;
+	}
+
+	.gallery-wrapper {
+		overflow: inherit;
+		width: 650px;
+		margin: 0 auto;
+	}
+
+	.gallery ul li {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+
+	.gallery-wrapper {
+	width: 2550px;
+	height: 370px;
+	overflow: hidden;
+	left: 0px;
+	position: relative;
+	}
+
+	.gallery ul li {
+	display: inline-block;
+	}
+
+	.project {
+	width: 600px;
+	height: 300px;
+	background-size: cover;
+	margin: 5px;
+	margin-bottom: 20px;
+	}
+	.marsButtons {
+	margin-top: 330px;
+	}
+
+	.criticButtons {
+	margin-top: 330px;
+	}
+	.timesButtons {
+	margin-top: 330px;
+	}
+
+	.collabButtons {
+	margin-top: 330px;
+	}
+
+	body {
+	background-image: url("grey_wash_wall_@2X.png");
+	height: 100%;
+	}
+
+	footer {
+	font-family: 'Poiret One', cursive;
+	color: white;
+	text-align: center;
+	margin-top: 60px;
+	}
+
+	.previous {
+	position: absolute;
+	left: 3%;
+	top: 30%;
+	font-size: 40px;
+	}
+
+	.next {
+	position: absolute;
+	right: 3%;
+	top: 30%;
+	font-size: 40px;
 	}
 }
 
