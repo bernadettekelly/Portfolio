@@ -10,6 +10,9 @@ $(document).ready(function() {
 	TweenLite.from('.Portfolio_Container', 1, {autoAlpha:0, delay:.5});
 	TweenMax.from('header', 1, {scale:0, autoAlpha:0}, 0.2);
 	TweenMax.from('.AboutPortfolio', 1, {scale:0, autoAlpha:0}, 0.2);
+	TweenLite.from('.1', 1, {autoAlpha:0, delay:.25});
+	TweenLite.from('.2', 1, {autoAlpha:0, delay:.5});
+	TweenLite.from('.3', 1, {autoAlpha:0, delay:1});
 	aboutListeners();
 	portfolioListeners();
 });
