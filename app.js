@@ -15,6 +15,7 @@ $(document).ready(function() {
 	TweenLite.from('.3', 1, {autoAlpha:0, delay:1});
 	aboutListeners();
 	portfolioListeners();
+	buttonListeners();
 });
 
 function aboutListeners() {
@@ -32,6 +33,15 @@ function portfolioListeners() {
 	});
 	$('.portfolio').on('mouseleave', function(e){
 		TweenLite.to(this, 0.7, {color: '#333'})
+	});
+}
+
+function buttonListeners() {
+	$('.button').on('mouseover', function(e){
+		TweenLite.to(this, 0.7, {color: '#00d1b2'})
+	});
+	$('.button').on('mouseleave', function(e){
+		TweenLite.to(this, 0.7, {color: '#363636'})
 	});
 }
 
