@@ -181,6 +181,22 @@ nav {
 	display: inline-block;
 }
 
+.is-primary, .is-success {
+	z-index: 1;
+}
+
+.is-primary:hover {
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+	z-index: 3;
+}
+
+.is-success:hover {
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+	z-index: 3;
+}
+
 .columns {
 	display: inline-block;
 	margin-top: 30px;
