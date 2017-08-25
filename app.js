@@ -1,12 +1,14 @@
 
 let left = 0;
 var tl = new TimelineLite();
+let screens = 0;
 
 $(document).ready(function() {
 	$('.Page').hide();
 	$('.Page2').show();
 	$('.portfolio').css("color", "#333");
 	$('.about').css("color", "#00d1b2");
+	$('.previous').hide();
 	TweenLite.from('.Portfolio_Container', 1, {autoAlpha:0, delay:.5});
 	TweenMax.from('header', 1, {scale:0, autoAlpha:0}, 0.2);
 	TweenMax.from('.AboutPortfolio', 1, {scale:0, autoAlpha:0}, 0.2);
@@ -77,12 +79,27 @@ $('.portfolio').click(function(e) {
 });
 
 $('.next').click(function(e){
+	screens++;
  //$('.gallery-wrapper').css("left", "-=600px");
- TweenMax.to('.gallery-wrapper', 0.7, {left:'-=600px', ease:Back.easeOut});
+ 	if(screens > 3){
+ 		screens = 0;
+ 		TweenMax.to('.gallery-wrapper', 0.7, {left:'0px', ease:Back.easeOut});
+ 	}else{
+		TweenMax.to('.gallery-wrapper', 0.7, {left:'-=600px', ease:Back.easeOut});
+	}
+	if(screens > 0){
+ 		$('.previous').show();
+ 	}else{
+ 		$('.previous').hide();
+ 	}
 });
 
 $('.previous').click(function(e){
- //$('.gallery-wrapper').css("left", "+=600px");
- TweenMax.to('.gallery-wrapper', 0.7, {left: '+=600px', ease:Back.easeOut});
+	screens--;
+	if(screens <= 0){
+		$('.previous').hide();
+	}
+ 	//$('.gallery-wrapper').css("left", "+=600px");
+ 	TweenMax.to('.gallery-wrapper', 0.7, {left: '+=600px', ease:Back.easeOut});
 });
 
