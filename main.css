@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Old+Standard+TT');
 
 * {
 	margin: 0;
@@ -6,15 +8,17 @@
 }
 
 header {
-	font-family: 'Poiret One', cursive;
-	color: white;
+	font-family: 'Old Standard TT', serif;
+    font-family: 'Fjalla One', sans-serif;
+	color: black;
 	font-size: 50px;
 	text-align: center;
 }
 
 h1, h2 {
-	font-family: 'Poiret One', cursive;
-	color: white;
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
 	font-size: 30px;
 	text-align: center;
 	display: inline-block;
@@ -41,26 +45,33 @@ h1, h2 {
 }
 
 .Portfolio_Title {
-	font-family: 'Poiret One', cursive;
-	color: white;
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
 	font-size: 40px;
 	text-align: center;
 	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .About_Title {
-	font-family: 'Poiret One', cursive;
-	color: white;
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
 	font-size: 40px;
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
 
+p {
+	color: black;
+}
+
 footer {
-	font-family: 'Poiret One', cursive;
-	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Old Standard TT', serif;
+	color: black;
 	text-align: center;
 	margin-top: 60px;
 }
@@ -68,6 +79,8 @@ footer {
 .email, .phone {
 	display: inline-block;
 	font-size: 20px;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Old Standard TT', serif;
 } 
 
 .Portfolio_Container{
@@ -104,7 +117,7 @@ img {
 	display: inline-block;
 }
 
-.collab {
+.collab, .Collabimagelink {
 	background-image:url("collab.png");
 	display: inline-block;
 }
@@ -128,8 +141,15 @@ img {
 	color: #363636;
 }
 
-p {
-	color: white;
+.title, .subtitle {
+	color: black;
+	font-family: 'Old Standard TT', serif;
+}
+
+ul {
+	color: black;
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
 }
 
 .CollabLiveButton {
@@ -157,16 +177,22 @@ p {
 }
 
 body {
-	background-image: url("grey_wash_wall_@2X.png");
+	background-color: white;
 	height: 100%;
+	position: relative;
 }
 
 .Page1 {
 	padding-bottom: 28px;
 }
 
-.Page2 {
-
+.pitch {
+	color: black;
+	text-align: center;
+	font-family: 'Old Standard TT', serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
 }
 
 .about, .portfolio {
@@ -174,56 +200,62 @@ body {
 }
 
 nav {
-	background-image: url("grey_wash_wall_@2X.png");
+	background-color: white;
 }
 
-.tile {
-	display: inline-block;
+.column {
+  margin: 20px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
 }
 
-.is-primary:hover {
+.collab:hover {
 	transition: all 200ms ease-in;
 	transform: scale(1.1);
 }
 
-.is-success:hover {
+.NYTimes:hover {
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+
+.critic:hover {
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+
+.mars:hover {
 	transition: all 200ms ease-in;
 	transform: scale(1.1);
 }
 
 .columns {
-	display: inline-block;
+	display: block;
 	margin-top: 30px;
-}
-
-.fa-linkedin-square {
-	float: right;
-	padding-right: 30px;
 }
 
 .fa-envelope {
 	float: right;
 	padding-right: 40px;
+	color: black;
 }
 
 .gallery-wrapper {
 	width: 2550px;
 	height: 370px;
-	overflow: hidden;
+	overflow: inherit;
 	left: 0px;
-	position: relative;
 }
 
 .gallery ul li {
-	display: inline-block;
+	display: block;
 }
 
 .gallery ul {
-	list-style-type: none;
 	width: 100%;
 	left: 0;
 	height: 300px;
-	position: absolute;
 }
 
 .previous {
@@ -242,6 +274,37 @@ nav {
 
 .columns {
 	margin: 5px;
+}
+
+.email, .phone {
+	color: black;
+}
+
+footer {
+margin-top: 300px;
+}
+
+.line {
+	width: 40%;
+	left: 30%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+}
+
+.line2 {
+	width: 40%;
+	left: 30%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 70%
+	z-index: -1;
+	margin-top: 20px;
+}
+
+a {
+	color: black;
 }
 
 @media only screen and (min-width: 320px) {
@@ -299,6 +362,11 @@ nav {
 	.Page2 footer {
 		margin-top: 50px;
 	}
+
+	.column {
+		width: 100%;
+	}
+
 }
 
 
@@ -342,6 +410,10 @@ nav {
 
 	footer {
 		margin-top: 960px;
+	}
+
+	.column {
+		width: 100%;
 	}
 }
 
@@ -389,6 +461,26 @@ nav {
     .project {
     	margin-bottom: 50px;
     }
+
+    .column {
+		width: 80%;
+	}
+
+	.mars {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.critic {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.NYTimes {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.collab {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -422,20 +514,43 @@ nav {
 	.gallery ul li {
 		display: block;
 	}
+
+	.columns {
+	margin: 5px;
+    }
+
+    .column {
+		width: 70%;
+	}
+
+	.mars {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.critic {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.NYTimes {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.collab {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
 }
 
 @media only screen and (min-width: 1280px) {
 
 	.gallery-wrapper {
-	width: 2550px;
+	width: 600px;
 	height: 370px;
-	overflow: hidden;
-	left: 0px;
-	position: relative;
+	overflow: inherit;
+	margin: 0 auto;
 	}
 
 	.gallery ul li {
-	display: inline-block;
+	display: block;
 	}
 
 	.project {
@@ -444,6 +559,7 @@ nav {
 	background-size: cover;
 	margin: 5px;
 	margin-bottom: 20px;
+	margin-top: 40px;
 	}
 	.marsButtons {
 	margin-top: 330px;
@@ -461,15 +577,8 @@ nav {
 	}
 
 	body {
-	background-image: url("grey_wash_wall_@2X.png");
+	background-color: white;
 	height: 100%;
-	}
-
-	footer {
-	font-family: 'Poiret One', cursive;
-	color: white;
-	text-align: center;
-	margin-top: 60px;
 	}
 
 	.previous {
@@ -486,10 +595,30 @@ nav {
 	font-size: 40px;
 	}
 
-	.Page2 footer {
-	margin-top: 60px;
-	padding-bottom: 0px;
+	footer {
+	margin-top: 1220px;
 	}
+
+	.columns {
+	margin: 5px;
+    }
+
+    .mars {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.critic {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.NYTimes {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.collab {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
 }
 
 

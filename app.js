@@ -4,14 +4,14 @@ var tl = new TimelineLite();
 let screens = 0;
 
 $(document).ready(function() {
-	$('.Page').hide();
+	//$('.Page').hide();
 	$('.Page2').show();
 	$('.portfolio').css("color", "#333");
 	$('.about').css("color", "#00d1b2");
 	$('.previous').hide();
 	TweenLite.from('.Portfolio_Container', 1, {autoAlpha:0, delay:.5});
 	TweenMax.from('header', 1, {scale:0, autoAlpha:0}, 0.2);
-	TweenMax.from('.AboutPortfolio', 1, {scale:0, autoAlpha:0}, 0.2);
+	TweenMax.from('.About_Title', 1, {scale:0, autoAlpha:0}, 0.2);
 	TweenLite.from('.1', 1, {autoAlpha:0, delay:.25});
 	TweenLite.from('.2', 1, {autoAlpha:0, delay:.5});
 	TweenLite.from('.3', 1, {autoAlpha:0, delay:1});
@@ -102,4 +102,20 @@ $('.previous').click(function(e){
  	//$('.gallery-wrapper').css("left", "+=600px");
  	TweenMax.to('.gallery-wrapper', 0.7, {left: '+=600px', ease:Back.easeOut});
 });
+
+$('.project').on('click', function(e){
+	var nextPage = $(this).find('.live').attr('href');
+	window.open(nextPage);
+});
+
+$('.github').on('click', function(e){
+	e.stopPropagation();
+})
+
+$(".button").attr("target", "_blank");
+$(".lbutton").attr("target", "_blank");
+$(".collab").attr("target", "_blank");
+$(".NYTimesimagelink").attr("target", "_blank");
+$(".Critcimagelink").attr("target", "_blank");
+$(".Marsimagelink").attr("target", "_blank");
 
