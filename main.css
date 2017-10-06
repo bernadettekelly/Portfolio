@@ -13,6 +13,7 @@ header {
 	color: black;
 	font-size: 50px;
 	text-align: center;
+	padding-top: 1em;
 }
 
 h1, h2 {
@@ -50,7 +51,7 @@ h1, h2 {
 	color: black;
 	font-size: 40px;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 2em;
 	margin-bottom: 10px;
 }
 
@@ -60,12 +61,12 @@ h1, h2 {
 	color: black;
 	font-size: 40px;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 2em;
 	margin-bottom: 20px;
 }
 
 p {
-	color: black;
+	color: #38393a;
 }
 
 footer {
@@ -105,21 +106,25 @@ img {
 .mars {
 	background-image:url("mars.png");
 	display: inline-block;
+	border-radius: 4px;
 }
 
 .critic {
 	background-image:url("critic.png");
 	display: inline-block;
+	border-radius: 4px;
 }
 
 .NYTimes {
 	background-image:url("NYTimes.png");
 	display: inline-block;
+	border-radius: 4px;
 }
 
-.collab, .Collabimagelink {
+.collab {
 	background-image:url("collab.png");
 	display: inline-block;
+	border-radius: 4px;
 }
 
 .marsButtons {
@@ -142,12 +147,12 @@ img {
 }
 
 .title, .subtitle {
-	color: black;
+	color: #38393a;
 	font-family: 'Old Standard TT', serif;
 }
 
 ul {
-	color: black;
+	color: #38393a;
 	font-family: 'Old Standard TT', serif;
 	font-size: 18px;
 }
@@ -187,7 +192,7 @@ body {
 }
 
 .pitch {
-	color: black;
+	color:#38393a;
 	text-align: center;
 	font-family: 'Old Standard TT', serif;
 	margin-top: 30px;
@@ -213,22 +218,27 @@ nav {
 .collab:hover {
 	transition: all 200ms ease-in;
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .NYTimes:hover {
 	transition: all 200ms ease-in;
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .critic:hover {
 	transition: all 200ms ease-in;
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .mars:hover {
 	transition: all 200ms ease-in;
 	transform: scale(1.1);
+	cursor: pointer;
 }
+
 
 .columns {
 	display: block;
@@ -280,6 +290,18 @@ nav {
 	color: black;
 }
 
+.icon:hover {
+	transition: all 200ms ease-in;
+	transform: scale(1.1); 
+	color: #00d1b2;
+}
+
+.lbutton:hover {
+	transition: all 200ms ease-in;
+	transform: scale(1.1); 
+	color: #00d1b2;
+}
+
 footer {
 margin-top: 300px;
 }
@@ -300,11 +322,16 @@ margin-top: 300px;
 	position: absolute;
 	top: 70%
 	z-index: -1;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 a {
 	color: black;
+}
+
+.fa {
+	padding-left: 3px;
+	padding-bottom: 5px;
 }
 
 @media only screen and (min-width: 320px) {
@@ -498,6 +525,7 @@ a {
 
 	footer {
 		margin-top: 1070px;
+		padding: 3em 0 1em 0;
 	}
 
 	.Page2 footer {
