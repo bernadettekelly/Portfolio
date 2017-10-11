@@ -100,7 +100,7 @@ img {
 	height: 300px;
 	background-size: cover;
 	margin: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
 .mars {
@@ -127,19 +127,19 @@ img {
 	border-radius: 4px;
 }
 
-.marsButtons {
-	margin-top: 330px;
+.marsButtons 
+	margin-top: 330px
 }
 
-.criticButtons {
-	margin-top: 330px;
+.criticButtons 
+	margin-top: 330px
 }
-.timesButtons {
-	margin-top: 330px;
+.timesButtons 
+	margin-top: 330px
 }
 
-.collabButtons {
-	margin-top: 330px;
+.collabButtons 
+	margin-top: 330px
 }
 
 .button {
@@ -239,7 +239,6 @@ nav {
 	cursor: pointer;
 }
 
-
 .columns {
 	display: block;
 	margin-top: 30px;
@@ -337,28 +336,29 @@ a {
 
 @media only screen and (min-width: 320px) {
 	.project {
-		width: 90%;
-		height: 300px;
 		background-size: contain;
 		background-repeat: no-repeat;
 		margin-top: 0 auto;
 		margin-bottom: 20px;
+		width: 90%;
+		height: 160px;
+		margin-top: 20px;
 	}
 
 	.marsButtons {
-	margin-top: 205px;
+    margin-bottom: 15px;
 	}
 
 	.criticButtons {
-    margin-top: 205px;
+    margin-bottom: 15px;
     }
 
     .timesButtons {
-    	margin-top: 205px;
+    	margin-bottom: 15px;
     }
 
     .collabButtons {
-    	margin-top: 205px;
+    	margin-bottom: 15px;
     }
 
 	body {
@@ -376,7 +376,7 @@ a {
 	}
 
 	footer {
-		margin-top: 960px;
+		margin-top: 650px;
 	}
 
 	.previous {
@@ -394,33 +394,90 @@ a {
 	.column {
 		width: 100%;
 	}
+	.Portfolio_Container {
+	margin: 0 auto;
+	width: 100%;
+	}
 
 }
 
-
-@media only screen and (min-width: 640px) {
-	.marsButtons {
-	margin-top: 230px;
-	}
-
-	.criticButtons {
-    margin-top: 230px;
-    }
-
-    .timesButtons {
-    	margin-top: 230px;
-    }
-
-    .collabButtons {
-    	margin-top: 230px;
-    }
-    .project {
-		width: 90%;
-		height: 300px;
+@media only screen and (min-width: 375px) {
+	.project {
+		width: 80%;
+		height: 170px;
 		background-size: contain;
 		background-repeat: no-repeat;
 		margin-top: 0 auto;
 		margin-bottom: 20px;
+	}
+
+	.marsButtons {
+    margin-bottom: 15px;
+	}
+
+	.criticButtons {
+    margin-bottom: 15px;
+    }
+
+    .timesButtons {
+    	margin-bottom: 15px;
+    }
+
+    .collabButtons {
+    	margin-bottom: 15px;
+    }
+
+    footer {
+		margin-top: 750px;
+	}
+}
+
+@media only screen and (min-width: 414px) {
+	.project {
+		width: 80%;
+		height: 170px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top: 0 auto;
+		margin-bottom: 20px;
+		margin-left: 8px;
+	}
+
+	.marsButtons {
+	margin-left: 0px;
+    margin-bottom: 15px;
+	}
+
+	.criticButtons {
+    margin-left: 0px;
+    margin-bottom: 15px;
+    }
+
+    .timesButtons {
+    	margin-left: 0px;
+    	margin-bottom: 15px;
+    }
+
+    .collabButtons {
+    	margin-left: 0px;
+    	margin-bottom: 15px;
+    }
+    .Portfolio_Container {
+	margin: 0 auto;
+	width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 640px) {
+    .project {
+		width: 90%;
+		height: 300px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: 0 auto;
+		margin-bottom: 20px;
+		margin-left: -35px;
 	}
 	body {
 		width: 100%;
@@ -436,13 +493,10 @@ a {
 		display: block;
 	}
 
-	footer {
-		margin-top: 960px;
-	}
-
 	.column {
 		width: 100%;
 	}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -459,11 +513,11 @@ a {
 	}
 
 	footer {
-		margin-top: 1070px;
+		margin-top: 775px;
 	}
+
 	.gallery-wrapper {
 		overflow: inherit;
-		width: 650px;
 		margin: 0 auto;
 	}
 
@@ -472,22 +526,25 @@ a {
 	}
 
 	.marsButtons {
-	margin-top: 305px;
+	margin-bottom: 20px;
 	}
 
 	.criticButtons {
-    margin-top: 305px;
-    }
+	margin-bottom: 20px;
+	}
+	.timesButtons {
+	margin-bottom: 20px;
+	}
 
-    .timesButtons {
-    	margin-top: 305px;
-    }
+	.collabButtons {
+	margin-bottom: 20px;
+	}
 
-    .collabButtons {
-    	margin-top:305px;
-    }
     .project {
-    	margin-bottom: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 196px;
+    margin: 5px;
     }
 
     .column {
@@ -509,6 +566,11 @@ a {
 	.collab {
 	box-shadow: 2px 2px 2px dimgrey;
 	}
+
+	.Portfolio_Container {
+		margin: 0 auto;
+		width: 55%;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -527,6 +589,10 @@ a {
 	footer {
 		margin-top: 1070px;
 		padding: 3em 0 1em 0;
+	}
+
+	footer {
+		margin-top: 1200px;
 	}
 
 	.Page2 footer {
@@ -567,6 +633,32 @@ a {
 	.collab {
 	box-shadow: 2px 2px 2px dimgrey;
 	}
+
+	.Portfolio_Container {
+	margin: 0 auto;
+	width: 70%;
+	}
+
+	.project {
+	width: 600px;
+    height: 300px;
+	}
+
+	.mars {
+	box-shadow: none;
+	}
+
+	.critic {
+	box-shadow: none;
+	}
+
+	.NYTimes {
+	box-shadow: none;
+	}
+
+	.collab {
+	box-shadow: none;
+	}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -591,18 +683,30 @@ a {
 	margin-top: 40px;
 	}
 	.marsButtons {
-	margin-top: 330px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+    width: 50%;
 	}
 
 	.criticButtons {
-	margin-top: 330px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+    width: 50%;
 	}
 	.timesButtons {
-	margin-top: 330px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+    width: 50%;
 	}
 
 	.collabButtons {
-	margin-top: 330px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+    width: 50%;
 	}
 
 	body {
@@ -625,7 +729,7 @@ a {
 	}
 
 	footer {
-	margin-top: 1220px;
+	margin-top: 1240px;
 	}
 
 	.columns {
