@@ -69,6 +69,19 @@ p {
 	color: #38393a;
 }
 
+.collabTitle, .timesTitle, .criticTitle, .marsTitle {
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	margin-top: 40px;
+}
+
+.collabDescription, .timesDescription, .criticDescription, .marsDescription {
+	color: #38393a;
+	font-family: 'Old Standard TT', serif;
+	text-align: justify;
+}
+
 footer {
 	font-family: 'Fjalla One', sans-serif;
 	font-family: 'Old Standard TT', serif;
@@ -144,6 +157,7 @@ img {
 
 .button {
 	color: #363636;
+	width: 110px;
 }
 
 .title, .subtitle {
@@ -376,7 +390,7 @@ a {
 	}
 
 	footer {
-		margin-top: 650px;
+		margin-top: 1700px;
 	}
 
 	.previous {
@@ -428,7 +442,7 @@ a {
     }
 
     footer {
-		margin-top: 750px;
+		margin-top: 1600px;
 	}
 }
 
@@ -513,7 +527,7 @@ a {
 	}
 
 	footer {
-		margin-top: 775px;
+		margin-top: 1600px;
 	}
 
 	.gallery-wrapper {
@@ -571,6 +585,9 @@ a {
 		margin: 0 auto;
 		width: 55%;
 	}
+	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
+	margin-bottom: 10px;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -592,7 +609,7 @@ a {
 	}
 
 	footer {
-		margin-top: 1200px;
+		margin-top: 1750px;
 	}
 
 	.Page2 footer {
@@ -658,6 +675,9 @@ a {
 
 	.collab {
 	box-shadow: none;
+	}
+	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
+	margin-bottom: 20px;
 	}
 }
 
@@ -729,7 +749,7 @@ a {
 	}
 
 	footer {
-	margin-top: 1240px;
+	margin-top: 2000px;
 	}
 
 	.columns {
@@ -750,6 +770,10 @@ a {
 
 	.collab {
 	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
+	margin-bottom: 0px;
 	}
 
 }
