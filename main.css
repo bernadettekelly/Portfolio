@@ -413,6 +413,10 @@ a {
 	width: 100%;
 	}
 
+	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
+		padding: 20px;
+	}
+
 }
 
 @media only screen and (min-width: 375px) {
@@ -678,6 +682,7 @@ a {
 	}
 	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
 	margin-bottom: 20px;
+	padding: 10px;
 	}
 }
 
