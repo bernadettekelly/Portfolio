@@ -71,9 +71,10 @@ p {
 
 .collabTitle, .timesTitle, .criticTitle, .marsTitle {
 	font-family: 'Old Standard TT', serif;
-	font-family: 'Fjalla One', sans-serif;
 	color: black;
 	margin-top: 40px;
+	color: #38393a;
+    font-size: 24px;
 }
 
 .collabDescription, .timesDescription, .criticDescription, .marsDescription {
@@ -163,6 +164,10 @@ img {
 .title, .subtitle {
 	color: #38393a;
 	font-family: 'Old Standard TT', serif;
+}
+
+.subtitle {
+	text-align: justify;
 }
 
 ul {
@@ -390,7 +395,7 @@ a {
 	}
 
 	footer {
-		margin-top: 1700px;
+		margin-top: 1940px;
 	}
 
 	.previous {
@@ -754,7 +759,7 @@ a {
 	}
 
 	footer {
-	margin-top: 2000px;
+	margin-top: 2050px;
 	}
 
 	.columns {
