@@ -158,7 +158,8 @@ img {
 
 .button {
 	color: #363636;
-	width: 110px;
+	width: 120px;
+    height: 45px;
 }
 
 .title, .subtitle {
@@ -395,7 +396,7 @@ a {
 	}
 
 	footer {
-		margin-top: 1940px;
+		margin-top: 2150px;
 	}
 
 	.previous {
@@ -451,7 +452,7 @@ a {
     }
 
     footer {
-		margin-top: 1600px;
+		margin-top: 1970px;
 	}
 }
 
@@ -536,7 +537,7 @@ a {
 	}
 
 	footer {
-		margin-top: 1600px;
+		margin-top: 1950px;
 	}
 
 	.gallery-wrapper {
@@ -613,12 +614,12 @@ a {
 	}
 
 	footer {
-		margin-top: 1070px;
+		margin-top: 1950px;
 		padding: 3em 0 1em 0;
 	}
 
 	footer {
-		margin-top: 1750px;
+		margin-top: 1950px;
 	}
 
 	.Page2 footer {
@@ -641,7 +642,7 @@ a {
     }
 
     .column {
-		width: 70%;
+		width: 60%;
 	}
 
 	.mars {

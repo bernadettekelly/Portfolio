@@ -104,7 +104,8 @@ $('.previous').click(function(e){
 });
 
 $('.project').on('click', function(e){
-	var nextPage = $(this).find('.live').attr('href');
+	var nextPage = $(this).parent().find('.live').attr('href');
+	console.log(nextPage);
 	window.open(nextPage);
 });
 
