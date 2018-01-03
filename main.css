@@ -424,6 +424,10 @@ a {
 	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
 		padding: 20px;
 	}
+	.pitch {
+		padding-left: 7px;
+		padding-right: 7px;
+	}
 
 }
 
@@ -492,6 +496,11 @@ a {
 	margin: 0 auto;
 	width: 100%;
 	}
+	.pitch {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
 }
 
 
@@ -512,7 +521,7 @@ a {
 
 	.gallery-wrapper {
 		overflow: inherit;
-		width: 420px;
+		width: 680px;
 	}
 
 	.gallery ul li {
@@ -521,6 +530,9 @@ a {
 
 	.column {
 		width: 100%;
+	}
+	footer {
+		margin-top: 2130px;
 	}
 
 }
@@ -691,6 +703,10 @@ a {
 	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
 	margin-bottom: 20px;
 	padding: 10px;
+	}
+	.pitch {
+		padding-left: 18px;
+		padding-right: 18px;
 	}
 }
 
