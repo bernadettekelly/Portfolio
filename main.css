@@ -238,26 +238,18 @@ nav {
 }
 
 .collab:hover {
-	transition: all 200ms ease-in;
-	transform: scale(1.1);
 	cursor: pointer;
 }
 
 .NYTimes:hover {
-	transition: all 200ms ease-in;
-	transform: scale(1.1);
 	cursor: pointer;
 }
 
 .critic:hover {
-	transition: all 200ms ease-in;
-	transform: scale(1.1);
 	cursor: pointer;
 }
 
 .mars:hover {
-	transition: all 200ms ease-in;
-	transform: scale(1.1);
 	cursor: pointer;
 }
 
