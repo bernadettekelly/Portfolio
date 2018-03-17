@@ -51,6 +51,16 @@ h1, h2 {
 	color: black;
 	font-size: 40px;
 	text-align: center;
+	margin-top: 20em;
+	margin-bottom: 10px;
+}
+
+.Portfolio_UXTitle {
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 40px;
+	text-align: center;
 	margin-top: 2em;
 	margin-bottom: 10px;
 }
@@ -69,7 +79,7 @@ p {
 	color: #38393a;
 }
 
-.collabTitle, .timesTitle, .criticTitle, .marsTitle {
+.collabTitle, .timesTitle, .criticTitle, .marsTitle, .moxieTitle {
 	font-family: 'Old Standard TT', serif;
 	color: black;
 	margin-top: 40px;
@@ -77,7 +87,7 @@ p {
     font-size: 24px;
 }
 
-.collabDescription, .timesDescription, .criticDescription, .marsDescription {
+.collabDescription, .timesDescription, .criticDescription, .marsDescription, .moxieDescription {
 	color: #38393a;
 	font-family: 'Old Standard TT', serif;
 	text-align: justify;
@@ -117,6 +127,14 @@ img {
 	margin-bottom: 20px
 }
 
+.project2 {
+	width: 600px;
+	height: 300px;
+	background-size: cover;
+	margin: 5px;
+	margin-bottom: 20px
+}
+
 .mars {
 	background-image:url("mars.png");
 	display: inline-block;
@@ -139,6 +157,223 @@ img {
 	background-image:url("collab.png");
 	display: inline-block;
 	border-radius: 4px;
+}
+
+.event {
+	background-image:url("EPpic.png");
+	display: inline-block;
+	border-radius: 4px;
+}
+
+.moxie {
+	background-image:url("moxiePic.png");
+	display: inline-block;
+	border-radius: 4px;
+}
+
+.mobilePic {
+	height: 500px;
+	margin-left: 45%;
+}
+
+.header2 {
+	position: absolute;
+	left: 21%;
+	top: 3%;
+	font-family: 'Old Standard TT', serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:44px;
+    color: #0FD1C3;
+}
+
+.pageLink2 {
+	font-family: 'Fjalla One', sans-serif;
+	margin-left: 5px;
+	position: fixed;
+	margin-left: 10px;
+	top: 10px;
+}
+
+.pageLink2:hover {
+	transition: all 200ms ease-in;
+	transform: scale(1.1); 
+	color: #00d1b2;
+}
+
+.intro {
+	font-family: 'Old Standard TT', serif;
+	margin: 0 auto;
+	width: 65%;
+	font-size: 18px;
+}
+
+.bold, .bold1, .bold2, .bold3, .bold4, .bold5, .bold6, .bold7, .bold8 {
+	font-weight: 600;
+}
+
+.title1, .title2, .title3 {
+	font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+.title2 {
+	margin-left: 38%;
+}
+
+.title3 {
+	margin-left: 41%;
+	margin-top: 70px;
+}
+
+.subtitle1, .subtitle2, .subtitle3, .subtitle4, .subtitle5, .subtitle6, .subtitile7{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	margin-top: 35px;
+}
+
+.subtitle2, .subtitle3 {
+	margin-top: 65px;
+}
+
+.subtitile6 {
+	margin-top: 25px;
+}
+
+.subtitle7 {
+	margin-top: 42%;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+}
+
+.subtitle6 {
+	margin-left: 40%;
+}
+
+.competText, .interviewText, .affinityText, .summaryText, .flowText, .lowfiText, .mediumText, .protoTakes, .hifiText, .nextText, .conclusionText {
+	font-family: 'Old Standard TT', serif;
+	color: #38393a;
+	font-size: 18px;
+	margin: 0 auto;
+	width: 65%;
+}
+.conclusionText {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hifiText {
+	margin-top: 35px;
+}
+
+.summaryText {
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.timing {
+	font-family: 'Old Standard TT', serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: #38393a;
+}
+
+.tablePic {
+	height: 500px;
+	margin-left: 26%;
+	margin-bottom: 0px;
+}
+
+.affinityPic {
+	height: 340px;
+	margin-left: 32%;
+	position: absolute;
+	right: 10%;
+	top: 26%;
+	margin-top: 30px;
+}
+
+.userPic {
+	height: 400px;
+	margin-left: 27%;
+}
+
+.sketchPic {
+	width: 425px;
+	margin-left: 31%;
+}
+
+.proto1Pic {
+	margin-left: 21%;
+	margin-bottom: 0px;
+}
+
+.beforeAfter1Pic {
+	margin-left: 18%;
+	margin-bottom: 45px;
+}
+
+.beforeAfter2Pic {
+	margin-left: 24%;
+	margin-bottom: 45px;
+}
+
+.beforeAfter3Pic {
+	margin-left: 26%;
+	margin-bottom: 0px;
+}
+
+.hifiPic {
+	height: 550px;
+	position: absolute;
+	left: 10%;
+}
+
+.protoLink {
+	border: 1px solid black;
+	border-radius: 3px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+	margin-left: 41%;
+	padding-bottom: 4px;
+	color: #38393a;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 3px;
+}
+
+.notificationsPic {
+	height: 550px;
+	position: absolute;
+	right: 10%;
+}
+
+.Page2 ul {
+	width: 65%;
+	margin: 0 auto;
+	list-style: circle;
+	padding-left: 3%;
+}
+
+.Page2 img {
+	padding-bottom: 30px;
+}
+
+.Page2 footer {
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+
+.firstLi {
+	font-weight: bold;
 }
 
 .marsButtons 
@@ -253,6 +488,10 @@ nav {
 	cursor: pointer;
 }
 
+.event:hover {
+	cursor: pointer;
+}
+
 .columns {
 	display: block;
 	margin-top: 30px;
@@ -339,6 +578,33 @@ margin-top: 300px;
 	margin-top: 10px;
 }
 
+.line3 {
+	width: 40%;
+	left: 27%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+}
+
+.line4 {
+	width: 40%;
+	left: 26%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+}
+
+.line5 {
+	width: 40%;
+	left: 26%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+}
+
 a {
 	color: black;
 }
@@ -350,6 +616,16 @@ a {
 
 @media only screen and (min-width: 320px) {
 	.project {
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top: 0 auto;
+		margin-bottom: 20px;
+		width: 90%;
+		height: 160px;
+		margin-top: 20px;
+	}
+
+	.project2 {
 		background-size: contain;
 		background-repeat: no-repeat;
 		margin-top: 0 auto;
@@ -433,6 +709,15 @@ a {
 		margin-bottom: 20px;
 	}
 
+	.project2 {
+		width: 80%;
+		height: 170px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top: 0 auto;
+		margin-bottom: 20px;
+	}
+
 	.marsButtons {
     margin-bottom: 15px;
 	}
@@ -452,10 +737,141 @@ a {
     footer {
 		margin-top: 1970px;
 	}
+
+	.mobilePic {
+		height: 400px;
+		margin-left: 24%;
+	}
+	.header2 {
+	position: absolute;
+	left: 27%;
+	top: 4%;
+	font-family: 'Old Standard TT', serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:36px;
+    color: #0FD1C3;
+	}
+	.intro {
+		margin-top: 30px;
+	}
+	.title1, .title2, .title3 {
+	font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 20%;
+    margin-top: 100px;
+	}
+	.subtitle1, .subtitle2, .subtitle3, .subtitle4, .subtitle5, .subtitle6, .subtitile7{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 26%;
+	margin-bottom: 15px;
+	margin-top: 35px;
+	}
+	.tablePic {
+	height: 300px;
+	margin-left: 4%;
+	margin-bottom: 0px;
+	}
+	.title3 {
+	margin-left: 30%;
+	margin-top: 100px;
+	}
+	.affinityPic {
+	height: 230px;
+	margin-left: 32%;
+	position: absolute;
+	right: 16%;
+	top: 30%;
+	margin-top: 10px;
+	}
+	.subtitle4 {
+		margin-left: 37%;
+	}
+	.sketchPic {
+	width: 325px;
+	margin-left: 7%;
+	}
+	.proto1Pic {
+	margin-left: 0%;
+	margin-bottom: 0px;
+	}
+	.beforeAfter1Pic {
+	margin-left: 0%;
+	margin-bottom: 45px;
+	}
+	.beforeAfter2Pic {
+	margin-left: 0%;
+	margin-bottom: 45px;
+	}
+
+	.beforeAfter3Pic {
+	margin-left: 0%;
+	margin-bottom: 0px;
+	}
+	.hifiPic {
+	height: 450px;
+	position: absolute;
+	left: 0%;
+	}
+	.notificationsPic {
+	height: 300px;
+	position: absolute;
+	right: 7%;
+	margin-top: 400px;
+	}
+	.subtitle7 {
+	margin-top: 189%;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	}
+	.protoLink {
+	border: 1px solid black;
+	border-radius: 3px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+	margin-left: 30%;
+	padding-bottom: 4px;
+	color: #38393a;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 3px;
+	}
+	.summaryText {
+	margin-bottom: 20px;
+	margin-top: 220px;
+	}
+	.userPic {
+	height: 400px;
+	margin-left: 0%;
+	}
+	.Portfolio_Title {
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 15em;
+	margin-bottom: 10px;
+	}
 }
 
 @media only screen and (min-width: 414px) {
 	.project {
+		width: 80%;
+		height: 170px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top: 0 auto;
+		margin-bottom: 20px;
+		margin-left: 8px;
+	}
+
+	.project2 {
 		width: 80%;
 		height: 170px;
 		background-size: contain;
@@ -492,12 +908,33 @@ a {
 		padding-left: 8px;
 		padding-right: 8px;
 	}
-
+	.tablePic {
+	height: 300px;
+	margin-left: 8%;
+	margin-bottom: 0px;
+	}
+	.affinityPic {
+	height: 250px;
+	margin-left: 32%;
+	position: absolute;
+	right: 16%;
+	top: 29%;
+	margin-top: 40px;
+	}
 }
 
 
 @media only screen and (min-width: 640px) {
     .project {
+		width: 90%;
+		height: 300px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: 0 auto;
+		margin-bottom: 20px;
+		margin-left: -35px;
+	}
+	.project2 {
 		width: 90%;
 		height: 300px;
 		background-size: cover;
@@ -513,7 +950,7 @@ a {
 
 	.gallery-wrapper {
 		overflow: inherit;
-		width: 680px;
+		width: 500px;
 	}
 
 	.gallery ul li {
@@ -572,8 +1009,14 @@ a {
 
     .project {
     margin-bottom: 50px;
-    width: 100%;
-    height: 196px;
+    width: 110%;
+    height: 250px;
+    margin: 5px;
+    }
+    .project2 {
+    margin-bottom: 50px;
+    width: 110%;
+    height: 250px;
     margin: 5px;
     }
 
@@ -599,11 +1042,177 @@ a {
 
 	.Portfolio_Container {
 		margin: 0 auto;
-		width: 55%;
+		width: 65%;
 	}
 	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
 	margin-bottom: 10px;
 	}
+	.tablePic {
+	height: 500px;
+	margin-left: 26%;
+	margin-bottom: 0px;
+	}
+	.mobilePic {
+	height: 500px;
+	margin-left: 45%;
+	}
+	.header2 {
+	position: absolute;
+	left: 21%;
+	top: 3%;
+	font-family: 'Old Standard TT', serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:44px;
+    color: #0FD1C3;
+	}
+	.intro {
+		margin-top: 0px;
+	}
+	.title1, .title2, .title3 {
+	font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 40%;
+    margin-top: 100px;
+	}
+	.subtitle1, .subtitle2, .subtitle3, .subtitle4, .subtitle5, .subtitle6, .subtitile7{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	margin-top: 35px;
+	}
+	.title2 {
+	margin-left: 38%;
+	}
+
+	.title3 {
+	margin-left: 41%;
+	margin-top: 70px;
+	}
+	.subtitle2, .subtitle3 {
+	margin-top: 65px;
+	}
+
+	.subtitile6 {
+	margin-top: 25px;
+	}
+
+	.subtitle7 {
+	margin-top: 42%;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	}
+
+	.subtitle6 {
+	margin-left: 40%;
+	}
+	.affinityPic {
+	height: 300px;
+	margin-left: 32%;
+	position: absolute;
+	right: 25%;
+	top: 27%;
+	margin-top: 35px;
+	}
+	.sketchPic {
+	width: 425px;
+	margin-left: 21%;
+	}
+	.proto1Pic {
+	margin-left: 0%;
+	margin-bottom: 0px;
+	}
+	.beforeAfter1Pic {
+	margin-left: 0%;
+	margin-bottom: 45px;
+	}
+	.beforeAfter2Pic {
+	margin-left: 0%;
+	margin-bottom: 45px;
+	}
+
+	.beforeAfter3Pic {
+	margin-left: 0%;
+	margin-bottom: 0px;
+	}
+	.hifiPic {
+	height: 450px;
+	position: absolute;
+	left: 23%;
+	}
+	.notificationsPic {
+	height: 300px;
+	position: absolute;
+	right: 27%;
+	margin-top: 400px;
+	}
+	.subtitle7 {
+	margin-top: 100%;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	}
+	.protoLink {
+	border: 1px solid black;
+	border-radius: 3px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+	margin-left: 41%;
+	padding-bottom: 4px;
+	color: #38393a;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 3px;
+	}
+	.summaryText {
+	margin-bottom: 20px;
+	margin-top: 50px;
+	}
+	.userPic {
+	height: 400px;
+	margin-left: 14%;
+	}
+	.line3 {
+	width: 40%;
+	left: 32%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+	}
+	.tablePic {
+	height: 500px;
+	margin-left: 7%;
+	margin-bottom: 0px;
+	}
+	.affinityText {
+		margin-top: 260px;
+	}
+	.line4 {
+	width: 40%;
+	left: 31%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+	}
+
+	.line5 {
+	width: 40%;
+	left: 26%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+	}
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -677,6 +1286,11 @@ a {
     height: 300px;
 	}
 
+	.project2 {
+	width: 600px;
+	height: 300px;
+	}
+
 	.mars {
 	box-shadow: none;
 	}
@@ -700,6 +1314,183 @@ a {
 		padding-left: 18px;
 		padding-right: 18px;
 	}
+	.Page2 footer {
+	margin-top: 50px;
+	padding-bottom: 30px;
+	}
+	.mobilePic {
+	height: 500px;
+	margin-left: 45%;
+	}
+	.header2 {
+	position: absolute;
+	left: 21%;
+	top: 3%;
+	font-family: 'Old Standard TT', serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:44px;
+    color: #0FD1C3;
+	}
+	.intro {
+		margin-top: 0px;
+	}
+	.title1, .title2, .title3 {
+	font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 40%;
+    margin-top: 100px;
+	}
+	.subtitle1, .subtitle2, .subtitle3, .subtitle4, .subtitle5, .subtitle6, .subtitile7{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	margin-top: 35px;
+	}
+	.title2 {
+	margin-left: 38%;
+	}
+
+	.title3 {
+	margin-left: 41%;
+	margin-top: 70px;
+	}
+	.subtitle2, .subtitle3 {
+	margin-top: 65px;
+	}
+
+	.subtitile6 {
+	margin-top: 25px;
+	}
+
+	.subtitle7 {
+	margin-top: 42%;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	}
+
+	.subtitle6 {
+	margin-left: 40%;
+	}
+	.affinityPic {
+	height: 340px;
+	margin-left: 30%;
+	position: absolute;
+	right: 29%;
+	top: 27%;
+	margin-top: 30px;
+	}
+	.sketchPic {
+	width: 425px;
+	margin-left: 31%;
+	}
+	.proto1Pic {
+	margin-left: 12%;
+	margin-bottom: 0px;
+	}
+	.beforeAfter1Pic {
+	margin-left: 7%;
+	margin-bottom: 45px;
+	}
+	.beforeAfter2Pic {
+	margin-left: 19%;
+	margin-bottom: 45px;
+	}
+
+	.beforeAfter3Pic {
+	margin-left: 22%;
+	margin-bottom: 0px;
+	}
+	.hifiPic {
+	height: 550px;
+	position: absolute;
+	left: 24%;
+	}
+	.notificationsPic {
+	height: 500px;
+	position: absolute;
+	right: 21%;
+	margin-top: 490px;
+	}
+	.subtitle7 {
+	margin-top: 100%;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	}
+	.protoLink {
+	border: 1px solid black;
+	border-radius: 3px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+	margin-left: 41%;
+	padding-bottom: 4px;
+	color: #38393a;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 3px;
+	}
+	.summaryText {
+	margin-bottom: 20px;
+	margin-top: 50px;
+	}
+	.userPic {
+	height: 400px;
+	margin-left: 27%;
+	}
+	.line3 {
+	width: 40%;
+	left: 30%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+	}
+	.line4 {
+	width: 40%;
+	left: 26%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+}
+
+	.line5 {
+	width: 40%;
+	left: 26%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+	}
+	.tablePic {
+	height: 500px;
+	margin-left: 18%;
+	margin-bottom: 0px;
+	}
+	.affinityText {
+	margin-top: 20px;
+	}
+	.summaryText {
+	margin-bottom: 20px;
+	margin-top: 310px;
+	}
+	.Portfolio_Title {
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 18em;
+	margin-bottom: 10px;
+	}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -716,6 +1507,15 @@ a {
 	}
 
 	.project {
+	width: 600px;
+	height: 300px;
+	background-size: cover;
+	margin: 5px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	}
+
+	.project2 {
 	width: 600px;
 	height: 300px;
 	background-size: cover;
@@ -793,10 +1593,107 @@ a {
 	box-shadow: 2px 2px 2px dimgrey;
 	}
 
+	.event {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
+	.moxie {
+	box-shadow: 2px 2px 2px dimgrey;
+	}
+
 	.collabDescription, .timesDescription, .criticDescription, .marsDescription {
 	margin-bottom: 0px;
 	}
+	.tablePic {
+	height: 500px;
+	margin-left: 26%;
+	margin-bottom: 0px;
+	}
+	.affinityText {
+	margin-top: 20px;
+	}
+	.line3 {
+	width: 40%;
+	left: 27%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+	}
+	.line4 {
+	width: 40%;
+	left: 26%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+	}
 
+	.line5 {
+	width: 40%;
+	left: 26%;
+	border-top: 1px solid;
+	position: absolute;
+	top: 50%
+	z-index: -1;
+	}
+	.summaryText {
+	margin-bottom: 20px;
+	margin-top: 55px;
+	}
+	.affinityPic {
+	height: 340px;
+	margin-left: 32%;
+	position: absolute;
+	right: 10%;
+	top: 25%;
+	margin-top: 10px;
+	}
+	.proto1Pic {
+	margin-left: 21%;
+	margin-bottom: 0px;
+	}
+	.beforeAfter1Pic {
+	margin-left: 18%;
+	margin-bottom: 45px;
+	}
+	.beforeAfter2Pic {
+	margin-left: 24%;
+	margin-bottom: 45px;
+	}
+
+	.beforeAfter3Pic {
+	margin-left: 26%;
+	margin-bottom: 0px;
+	}
+	.subtitle7 {
+	margin-top: 70%;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 42%;
+	margin-bottom: 15px;
+	}
+	.hifiPic {
+	height: 550px;
+	position: absolute;
+	left: 27%;
+	}
+	.notificationsPic {
+	height: 400px;
+	position: absolute;
+	right: 37%;
+	margin-top: 520px;
+	}
+	.Portfolio_Title {
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 19em;
+	margin-bottom: 10px;
+	}
 }
 
 

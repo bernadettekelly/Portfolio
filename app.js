@@ -4,8 +4,8 @@ var tl = new TimelineLite();
 let screens = 0;
 
 $(document).ready(function() {
-	//$('.Page').hide();
-	$('.Page2').show();
+	$('.Page').hide();
+	$('.Page1').show();
 	$('.portfolio').css("color", "#333");
 	$('.about').css("color", "#00d1b2");
 	$('.previous').hide();
@@ -18,6 +18,32 @@ $(document).ready(function() {
 	aboutListeners();
 	portfolioListeners();
 	buttonListeners();
+});
+
+$('.pageLink').click(function(e) {
+	e.preventDefault();
+	$('.Page').hide();
+	$('.Page2').show();
+	$('#anchor').show();
+	//TweenLite.from('.mobilePic', 1, {autoAlpha:0, delay:.25});
+	//TweenMax.from('header2', 1, {scale:1, autoAlpha:0}, 0.2);
+	TweenMax.staggerFrom('.header2', 1, {x:"+=30"}, 0.2);
+	TweenMax.staggerFrom('.mobilePic', 1, {y:"+=30"}, 0.2);
+	$('.pageLink').hide();
+});
+
+$('.event').click(function(e) {
+	e.preventDefault();
+	$('.Page').hide();
+	$('.Page2').show();
+	$('.pageLink').hide();
+});
+
+$('.pageLink2').click(function(e) {
+	e.preventDefault();
+	$('.Page').hide();
+	$('.Page1').show();
+	$('.pageLink').show();
 });
 
 function aboutListeners() {
@@ -119,4 +145,5 @@ $(".collab").attr("target", "_blank");
 $(".NYTimesimagelink").attr("target", "_blank");
 $(".Critcimagelink").attr("target", "_blank");
 $(".Marsimagelink").attr("target", "_blank");
+$(".protoLink").attr("target", "_blank");
 
