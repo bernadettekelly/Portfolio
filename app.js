@@ -24,12 +24,12 @@ $('.pageLink').click(function(e) {
 	e.preventDefault();
 	$('.Page').hide();
 	$('.Page2').show();
-	$('#anchor').show();
 	//TweenLite.from('.mobilePic', 1, {autoAlpha:0, delay:.25});
 	//TweenMax.from('header2', 1, {scale:1, autoAlpha:0}, 0.2);
 	TweenMax.staggerFrom('.header2', 1, {x:"+=30"}, 0.2);
 	TweenMax.staggerFrom('.mobilePic', 1, {y:"+=30"}, 0.2);
 	$('.pageLink').hide();
+	$('html, body').scrollTop(0);
 });
 
 $('.event').click(function(e) {
@@ -37,6 +37,9 @@ $('.event').click(function(e) {
 	$('.Page').hide();
 	$('.Page2').show();
 	$('.pageLink').hide();
+	TweenMax.staggerFrom('.header2', 1, {x:"+=30"}, 0.2);
+	TweenMax.staggerFrom('.mobilePic', 1, {y:"+=30"}, 0.2);
+	$('html, body').scrollTop(0);
 });
 
 $('.pageLink2').click(function(e) {
@@ -44,6 +47,7 @@ $('.pageLink2').click(function(e) {
 	$('.Page').hide();
 	$('.Page1').show();
 	$('.pageLink').show();
+	$('html, body').scrollTop(0);
 });
 
 function aboutListeners() {
