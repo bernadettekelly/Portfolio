@@ -740,11 +740,11 @@ a {
 
 	.mobilePic {
 		height: 400px;
-		margin-left: 24%;
+		margin-left: 26%;
 	}
 	.header2 {
 	position: absolute;
-	left: 27%;
+	left: 29%;
 	top: 4%;
 	font-family: 'Old Standard TT', serif;
     font-family: 'Fjalla One', sans-serif;
@@ -752,7 +752,7 @@ a {
     color: #0FD1C3;
 	}
 	.intro {
-		margin-top: 30px;
+		margin-top: 50px;
 	}
 	.title1, .title2, .title3 {
 	font-family: 'Fjalla One', sans-serif;
